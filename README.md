@@ -109,15 +109,19 @@ new variavel<MeuAutomato:EstadoB;
 
 entry() <MeuAutomato:EstadoA>
 {
-    variavel = 1;
+	variavel = 1; // MeuAutomato:EstadoA
 }
 
 funcao() <MeuAutomato:EstadoB>
 {
-    if (variavel == 1)
-    {
-        print("Variável de estado é 1");
-    }
+	if (variavel == 1) // MeuAutomato:EstadoB
+	{
+		print("Variável de estado é 1");
+	}
+	else
+	{
+		print("Variável de estado não é 1");
+	}
 }
 ```
 
@@ -144,7 +148,7 @@ Até agora, exploramos a associação de estados e autômatos a funções, o que
 ```pawn
 funcao() <>
 {
-    print("Funcao sem estados");
+	print("Funcao sem estados");
 }
 ```
 
