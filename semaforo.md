@@ -4,9 +4,10 @@ new bool:pode_passar;
 MudarLuz() <>
 {
 	print("Iniciando a simulação de um semáforo!");
+	state Luz:Vermelho;
 }
 
-MudarLuz() <Luz:Verde>
+MudarLuz() <Luz:Vermelho>
 {
 	pode_passar = false;
 	print("Semáforo está no vermelho!");
