@@ -17,7 +17,7 @@ public OnGameModeInit() <GameModeInit:_1>
 	return OnGameModeInit();
 }
 
-public OnGameModeInit() <GameModeInit:_1>
+public OnGameModeInit() <GameModeInit:_2>
 {
 	print("Funcao OnGameModeInit 3");
 	
