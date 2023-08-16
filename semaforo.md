@@ -42,6 +42,7 @@ public RotateTrafficLight()
 
 main()
 {
+	RotateTrafficLight();
 	SetTimer("RotateTrafficLight", 5000, 1);
 	// Cada luz vai ter 5 segundos
 }
