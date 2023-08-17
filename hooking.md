@@ -22,7 +22,7 @@ public OnGameModeInit() <_2>
 {
 	print("Funcao OnGameModeInit 3");
 	
-	EndHook();
+	EndHook(); // indicar o ultimo gancho da funcao
 	return 1; // cuidado para não criar um loop
 }
 ```
