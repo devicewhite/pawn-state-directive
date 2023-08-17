@@ -1,5 +1,5 @@
 ```pawn
-stock NunnableHook() <endhook> {};
+stock NunnableHook() <endhook> {}
 #define EndHook() state endhook
 
 public OnGameModeInit() <>
