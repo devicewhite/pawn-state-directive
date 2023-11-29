@@ -26,3 +26,7 @@ public OnGameModeInit() <_2>
 	return 1; // cuidado para não criar um loop
 }
 ```
+**Resultado final:**
+<p>Funcao OnGameModeInit 1</p>
+<p>Funcao OnGameModeInit 2</p>
+<p>Funcao OnGameModeInit 3</p>
